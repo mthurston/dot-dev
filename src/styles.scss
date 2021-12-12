@@ -1,0 +1,42 @@
+/** colors */
+$livingCoral: #fc766a;
+$livingCoral-complementary_-1: #ff8f85;
+$livingCoral-complementary_-2: #b04238;
+$livingCoral-complementary_1: #27b064;
+$livingCoral-complementary_2: #6afcab;
+
+$pacificCoast: #5b84b1;
+$pacificCoast-analogous_-1: #5b73c7;
+$pacificCoast-analogous_-2: #5b57bd;
+$pacificCoast-analogous_1: #5bacc7;
+$pacificCoast-analogous_2: #57bdbc;
+
+$wt: #fcfcfc;
+$wt-shades_-1: #7d7d7d;
+$wt-shades_-2: #bdbdbd;
+$wt-shades_1: #3d3d3d;
+$wt-shades_2: #e3e3e3;
+
+/** colors to brand */
+$theme-bg: $livingCoral;
+$bg: $wt;
+$color: $wt-shades_1;
+$bg-info: $pacificCoast;
+$color-info: $wt-shades_2;
+$border-color: $wt-shades_-1;
+$hint-color: $pacificCoast-analogous_-2;
+$error-color: $livingCoral-complementary_-2;
+$success-color: $livingCoral-complementary_2;
+$primary-color: $pacificCoast-analogous_2;
+
+$gray: $wt-shades_-1;
+$gray-light: $wt-shades_-2;
+$gray-dark: $wt-shades_1;
+
+/** global */
+body {
+  background: $bg;
+  color: $color;
+  font-family: "Noto Sans Display", sans-serif;
+  overflow:hidden;
+}
